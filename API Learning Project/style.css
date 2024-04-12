@@ -1,0 +1,39 @@
+.centered-container-h1 {
+  display: grid;
+  place-items: center;
+  height: 15vh;
+}
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 10px 0;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 20px;
+  color: white;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background: #555;
+}
+
+/* COLUMN */
+
+.search-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* align boxesto the start (left) */
+  gap: 46px;
+  margin-top: 40px;
+}
