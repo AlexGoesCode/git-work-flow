@@ -33,7 +33,30 @@
 .search-column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* align boxesto the start (left) */
+  align-items: flex-start;
   gap: 46px;
   margin-top: 40px;
+}
+
+/* COLUMN */
+
+.search-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;8
+  margin-top: 40px; 
+}
+
+.search-box {
+  padding: 8px;
+  width: 50%; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2px;
+  /* Rounds the corners of the input box */
+}
+
+.search-item label {
+  margin-bottom: 10px;
 }
